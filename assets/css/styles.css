@@ -1,0 +1,23 @@
+:root{
+    --primary-color:#CCD5AE;
+    --secondary-color:#E9EDC9;
+    --light-background:#FEFAE0;
+    --dark-background:#FAEDCD;
+    --tertiary-color:#D4A373;
+}
+body{
+    background-color: var(--light-background);
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: italic;
+
+}
+
+  
