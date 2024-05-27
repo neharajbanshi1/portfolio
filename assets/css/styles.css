@@ -3,13 +3,15 @@
     --secondary-color:#E9EDC9;
     --light-background:#FEFAE0;
     --dark-background:#FAEDCD;
-    --tertiary-color:#D4A373;
+    --tertiary-color:#deab78;
 }
+
 body{
     background-color: var(--light-background);
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-style: normal;
+   
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -20,4 +22,45 @@ h1,h2,h3,h4,h5,h6{
 
 }
 
-  
+
+
+.navbar {
+ list-style-type: none;
+ font-family: "Playfair Display", serif;
+ background-color: #CCD5AE;
+ overflow: hidden;
+ display:flex;
+ justify-content: center;
+ 
+
+ 
+ 
+}
+button{
+  background-color:var(--light-background);
+  border-radius: 10px;
+  border: black;
+  margin:8px;
+}
+.navbar a{
+  color:black;
+  text-decoration: none;
+  padding: 14px ;
+  display:block;
+  text-align: center;
+  font-weight: bold;
+
+;
+}
+.navbar a:hover{
+  background-color: var(--dark-background);
+
+}
+
+.profile{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  margin:40px;
+  margin-top: 60px;
+}
