@@ -64,3 +64,36 @@ button{
   margin:40px;
   margin-top: 60px;
 }
+.introduction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.goaticon img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+@media (max-width: 768px) {
+  .profile {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .introduction {
+      margin-top: 20px;
+  }
+
+  .greetings,
+  .introContent {
+
+      margin: 10px 0;
+      
+      text-align: center;
+  }
+
+  .goaticon {
+      order: -1; /* Ensures the image goes on top */
+  }
+}
